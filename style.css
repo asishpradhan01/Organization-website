@@ -405,7 +405,6 @@
   .Container {
     flex-direction: row;
     justify-content: space-between;
-    padding: 15px 20px;
   }
 
   .list-items {
