@@ -302,10 +302,10 @@
 
 .members {
   text-align: center;
-  background-color: rgb(180, 170, 170);
+  background-color: rgb(228, 224, 220);
   padding-top: 4rem;
   padding-bottom: 4rem;
-  color: white;
+  color: black;
 }
 
 .member-images {
@@ -319,7 +319,8 @@
 .member-details{
   width: 350px;
   height: 330px;
-  background-color: rgb(180, 170, 170);
+  background-color: rgb(228, 224, 220);
+  color: black;
   margin-top: 3rem;
   border-radius: 15px;
 }
@@ -330,13 +331,13 @@
    flex-direction: column;
    text-align: center;
    gap: 10px;
-   color: white;
+   color: black;
 }
 
 .other-member-details {
     width: 350px;
   height: 330px;
-  background-color: rgb(180, 170, 170);
+  background-color: rgb(228, 224, 220);
   margin-top: 3rem;
   border-radius: 15px;
 }
