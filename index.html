@@ -12,13 +12,22 @@
   <body>
     <nav>
       <div class="Container">
-        <h1>Amar Youth Club (AYC)</h1>
+        <div class="aliging-logo">
+        <h1>Amar Youth Club</h1>
+        <img src="./src/WhatsAppImagelogo.jpeg" class="logo-img" alt="">
+        </div>
         <div class="handle-container">
           <ul class="list-items">
-            <li class="nav-item">Home</li>
-            <li class="nav-item">About</li>
-            <li class="nav-item">FAQ's</li>
-            <li class="nav-item">Conatct</li>
+            <li><a href="" class="nav-item">Home</a></li>
+            <div class="dropdownparent">
+            <li class="about"><a href="about.html" onclick="myFunction()" class="nav-item hov">About Us ▾</a></li>
+            <ul class="dropdown-list" id="dropdown-content">
+              <li><a href="mission.html" class="dropdown">Mission and Vision</a></li>
+              <li><a href="gallery.html" class="dropdown">Gallery</a></li>
+            </ul>
+            </div>
+            <li><a href="./membership.html" class="nav-item">Constitution</a></li>
+            <li><a href="contact.html" class="nav-item">Conatct Us</a></li>
           </ul>
         </div>
         <div class="hamburger-menu">
@@ -35,20 +44,20 @@
       <button class="bttn next" data-curasel-bttn="next">&#10095</button>
       <ul data-slides> 
         <li class="slide" data-active>
-          <img class="slide-img" src="./src/shoes.jpg" alt="" />
+          <img class="slide-img" src="./src/WhatsApp-Image.jpeg" alt="" />
         </li>
         <li class="slide">
-          <img class="slide-img" src="./src/sneakers.jpg" alt="" />
+          <img class="slide-img" src="./src/WhatsApp-Image1.jpeg" alt="" />
         </li>
         <li class="slide">
-          <img class="slide-img" src="./src/sneakers1.jpg" alt="" />
+          <img class="slide-img" src="./src/WhatsApp-Image2.jpeg" alt="" />
         </li>
       </ul>
       </div>
     </section>
 
     <section class="dream">
-      <img class="Gorkha" src="./src/casual-shoe.jpg" alt="">
+      <img class="Gorkha" src="./src/WhatsAppImagelogo.jpeg" alt="">
        <div class="Gorkha-Content">
           <h2 class="gor-heading">About</h2>
           <h1 class="gor-sub-head">Amar Youth Club (AYC)</h1>
@@ -120,7 +129,7 @@
                     totam dolorem excepturi asperiores, eligendi perferendis. Voluptatem dicta, incidunt fugit distinctio iusto 
                     cupiditate nam?
                 </p>
-                <h3 class="President-name">Random Person</h3>
+                <h3 class="President-name">Bikram Bhattarai</h3>
                 <h4>Phone : +91 8453*****</h4>
             </div>
            </div>
@@ -129,7 +138,7 @@
     <section>
       <div class="General-Security">
           <div class="Info-p">
-              <h1 class="President-heading">General Secretary</h1>
+              <h1 class="President-heading">Vice President</h1>
               <p class="President-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident fugiat saepe veritatis,
                  consectetur omnis recusandae nesciunt quia impedit cumque, quod ad unde quidem architecto cum 
                  officiis odio blanditiis qui eos.
@@ -140,7 +149,7 @@
                     totam dolorem excepturi asperiores, eligendi perferendis. Voluptatem dicta, incidunt fugit distinctio iusto 
                     cupiditate nam?
                 </p>
-                <h3 class="President-name">Random Person</h3>
+                <h3 class="President-name">Binod Bhattarai</h3>
                 <h4>Phone : +91 8453*****</h4>
             </div>
             <img src="./src/alex-suprun.jpg" class="General-Security-image" alt="">
@@ -153,9 +162,9 @@
         <div class="links">
           <h3>Quick Links</h3>
           <ul class="link-items">
-            <li class="items">Home</li>
-            <li class="items">Presidents and Gen. Secretary</li>
-            <li class="items">Central Committee</li>
+            <li><a href="" class="items">Home</a></li>
+            <li><a href="" class="items">Presidents and Gen. Secretary</a></li>
+            <li><a href="./AYC-member.html" class="items">AYC Members</a></li>
           </ul>
         </div>
     </footer>

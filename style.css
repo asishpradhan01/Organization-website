@@ -11,16 +11,185 @@
   align-items: center;
   background-color: black;
   color: white;
-  padding: 20px 30px;
+  padding: 30px 40px;
 }
+
+.logo-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.childern-aims {
+  display: flex;
+  flex-direction: column;
+  gap: 0.30rem;
+  width: 500px;
+  margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
+}
+
+.childern-aims h2 {
+  font-size: 2rem;
+  margin-top: 0.45rem;
+}
+
+.Objective-para {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+.aliging-logo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.Objective-image {
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.childern-objectives {
+  display: flex;
+}
+
+.childern-objectives-aligned {
+  display: flex;
+}
+
+.parent-aims-n-objective {
+   display: flex;
+   flex-direction: column;
+}
+
+.grandparent-objectives {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 100vh;
+  margin-bottom: 1rem;
+}
+
+.objective-childern-aims {
+  display: flex;
+}
+
+.aliging-objective {
+  display: flex;
+}
+
+.contact-info {
+    display: flex;
+    gap: 2rem;
+}
+
+.fifth-container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: 2px solid;
+    padding: 10px 2.5rem;
+    width: 350px;
+    border-color: rgb(109, 221, 221);
+}
+
+.form-control {
+    margin-top: 15px;
+}
+
+.text-area-1 {
+    width: 730px;
+    height: 200px;
+    padding-left: 2.5rem;
+    padding-top: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: rgb(109, 221, 221);
+}
+
+.fifth-h {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.form-button {
+    margin-top: 10px;
+}
+
+.bttn-onw {
+  font-size: 1rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    color: white;
+    transition: 0.5s ease;
+} 
 
 .list-items {
   display: flex;
   list-style: none;
-  gap: 1.5rem;
+  gap: 2.5rem;
   cursor: pointer;
   font-size: 1.3rem;
+  transition: 1s ease;
 }
+
+.list-items li .nav-item {
+  color: white;
+  text-decoration: none;
+ 
+}
+
+.list-items li .nav-item:hover {
+   text-decoration: underline;
+   text-underline-offset: 0.30rem;
+}
+
+.dropdownparent {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-list {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown {
+   color: white;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 1rem;
+}
+
+.dropdown:hover {
+  color: rgb(113, 113, 161);
+}
+
+.dropdown-list li {
+   list-style: none;
+}
+
+.show {display:block;}
 
 .hamburger-menu {
   display: none;
@@ -37,6 +206,7 @@
 .Caurasel {
   position: relative;
   width: 100%;
+  height: 90vh;
   overflow: hidden;
 }
 
@@ -286,7 +456,8 @@
 }
 
 .items {
-  margin-bottom: 0.45rem;
+  color: white;
+  text-decoration: none;
 }
 
 .links {
@@ -298,6 +469,13 @@
 .link-items {
   list-style: none;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.link-items li a:hover {
+  color: rgb(113, 113, 161);
 }
 
 .members {
@@ -338,7 +516,6 @@
     width: 350px;
   height: 330px;
   background-color: rgb(228, 224, 220);
-  margin-top: 3rem;
   border-radius: 15px;
 }
 
@@ -355,6 +532,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -398,6 +576,84 @@
   }
 }
 
+.Mission-parent-cont {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  background-color: rgb(228, 224, 220);
+}
+
+.fa-rocket {
+  font-size: 6rem;
+}
+
+.fa-eye {
+  font-size: 6rem;
+}
+
+.mission-divion {
+   margin-top: 3rem;
+    width: 500px;
+  height: 350px;
+    border-radius: 15px;
+  background-color: white;
+  display: flex;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.handeling-mission {
+  height: 90vh;
+  gap: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-heading {
+  padding-top: 1rem;
+  padding-bottom: 0.45rem;
+}
+
+.gallery{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  background-color: rgb(228, 224, 220);
+}
+
+.parent-gallery {
+  height: 250px;
+  width: 300px;
+  border-radius: 15px; 
+}
+
+.grand-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.gallery-images {
+    height: 250px;
+  width: 300px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+
+}
+
+.clildren-gallery {
+  margin-top: 1rem;
+}
 /* ============================= */
 /* 📱 RESPONSIVENESS STARTS HERE */
 /* ============================= */
@@ -638,6 +894,61 @@
   .items {
     font-size: 0.9rem;
   }
+
+  .grandparent-objectives {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .childern-aims {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .Objective-image {
+    width: 90%;
+  }
+
+  .childern-aims h2 {
+    text-align: start;
+  }
+
+  .handeling-mission {
+     flex-direction: column;
+     height: auto;
+     gap: 5px;
+     margin-bottom: 4rem;
+  }
+
+.mission-divion {
+  width: 90%;
+}
+.fifth-h {
+        padding-top: 3rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-info {
+        display: flex;
+        gap: 5px;
+    }
+
+    .contact-details {
+        padding: 0 1rem;
+    }
+
+    .text-area-1, .name {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 15px;
+    }
+
+    .fifth-container {
+        height: auto;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+    }
+
 }
 
 /* Very Small Screens (max-width: 360px) */

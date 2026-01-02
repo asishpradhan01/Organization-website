@@ -31,3 +31,21 @@ buttons.forEach((buttons) => {
     delete activeSlide.dataset.active;
   });
 });
+
+function myFunction() {
+  document.querySelector(".dropdown-list").classList.toggle("show")
+}
+
+window.onclick = function(event) {
+ 
+  if(!event.target.matches('hov')) {
+    var dropdown = document.getElementById("dropdown-content");
+    var i;
+    for(i = 0; i < dropdown.length; i++) {
+      var openDropdown = dropdown[i];
+      if(openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    } 
+  }
+}

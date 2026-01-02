@@ -8,13 +8,22 @@
 <body>
      <nav>
       <div class="Container">
-        <h1>Amar Youth Club (AYC)</h1>
+        <div class="aliging-logo">
+        <h1>Amar Youth Club</h1>
+        <img src="./src/WhatsAppImagelogo.jpeg" class="logo-img" alt="">
+        </div>
         <div class="handle-container">
           <ul class="list-items">
-            <li class="nav-item">Home</li>
-            <li class="nav-item">About</li>
-            <li class="nav-item">FAQ's</li>
-            <li class="nav-item">Conatct</li>
+            <li><a href="" class="nav-item">Home</a></li>
+            <div class="dropdownparent">
+            <li class="about"><a href="about.html" onclick="myFunction()" class="nav-item hov">About Us ▾</a></li>
+            <ul class="dropdown-list" id="dropdown-content">
+              <li><a href="mission.html" class="dropdown">Mission and Vision</a></li>
+              <li><a href="gallery.html" class="dropdown">Gallery</a></li>
+            </ul>
+            </div>
+            <li><a href="./membership.html" class="nav-item">Constitution</a></li>
+            <li><a href="contact.html" class="nav-item">Conatct Us</a></li>
           </ul>
         </div>
         <div class="hamburger-menu">
@@ -23,7 +32,7 @@
           <span class="bar"></span>
         </div>
       </div>
-    </nav> 
+    </nav>
     <div class="members">
         <h1>Amar Youth Club Members</h1>
     </div>
@@ -187,5 +196,7 @@
           </ul>
         </div>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
