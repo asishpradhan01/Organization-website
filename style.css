@@ -953,6 +953,10 @@
         gap: 5px;
     }
 
+    .contact {
+      width: 100%;
+    }
+
     .contact-details {
         padding: 0 1rem;
     }
