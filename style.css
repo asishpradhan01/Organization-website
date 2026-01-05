@@ -83,23 +83,27 @@
 
 .contact-info {
     display: flex;
-    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 .fifth-container {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .name {
-    font-size: 1.2rem;
+    font-size: 1rem;
     border-radius: 30px;
     border: 2px solid;
     padding: 10px 2.5rem;
-    width: 350px;
-    border-color: rgb(109, 221, 221);
+    width: 500px;
+    border: none;
+    background-color: rgb(238, 235, 235);
 }
 
 .form-control {
@@ -107,20 +111,20 @@
 }
 
 .text-area-1 {
-    width: 730px;
+    width: 500px;
     height: 200px;
     padding-left: 2.5rem;
     padding-top: 10px;
-    font-size: 18px;
+    font-size: 1rem;
     border-radius: 15px;
-    border: 2px solid;
-    border-color: rgb(109, 221, 221);
+    border: none;
+    background-color: rgb(238, 235, 235);
 }
 
 .fifth-h {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 3rem;
+    font-size: 2.4rem;
+    text-align: start;
+    margin-bottom: 1rem;
 }
 
 .form-button {
@@ -130,8 +134,9 @@
 .bttn-onw {
   font-size: 1rem;
     padding: 10px;
+    width: 500px;
     cursor: pointer;
-    border-radius: 7px;
+    border-radius: 30px;
     font-weight: bold;
     background-color: black;
     border: none;
@@ -480,10 +485,14 @@
 
 .members {
   text-align: center;
-  background-color: rgb(228, 224, 220);
+  background-color: rgb(69, 143, 69);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   padding-top: 4rem;
   padding-bottom: 4rem;
-  color: black;
+  color: white;
 }
 
 .member-images {
@@ -535,6 +544,18 @@
   margin-bottom: 2rem;
 }
 
+.Mission-parent-cont {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+   background-color: rgb(69, 143, 69);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
+}
+
 @media screen and (max-width: 768px) {
   .hamburger-menu {
     display: block;
@@ -575,19 +596,14 @@
   }
 }
 
-.Mission-parent-cont {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  text-align: center;
-  background-color: rgb(228, 224, 220);
-}
-
 .fa-rocket {
   font-size: 6rem;
+  color: rgb(69, 143, 69);
 }
 
 .fa-eye {
   font-size: 6rem;
+  color: rgb(69, 143, 69);
 }
 
 .mission-divion {
@@ -605,7 +621,7 @@
 }
 
 .handeling-mission {
-  height: 90vh;
+  height: 100vh;
   gap: 4rem;
   display: flex;
   justify-content: center;
@@ -621,7 +637,12 @@
   padding-top: 4rem;
   padding-bottom: 4rem;
   text-align: center;
-  background-color: rgb(228, 224, 220);
+    background-color: rgb(69, 143, 69);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: white;
 }
 
 .parent-gallery {
@@ -821,6 +842,7 @@
 
   .dream {
     padding: 1.5rem;
+    margin-bottom: 4rem;
   }
 
   .bttn {
@@ -922,7 +944,8 @@
 }
 .fifth-h {
         padding-top: 3rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
     }
 
     .contact-info {
@@ -934,10 +957,18 @@
         padding: 0 1rem;
     }
 
-    .text-area-1, .name {
+    .text-area-1 {
         width: 100%;
         box-sizing: border-box;
         font-size: 15px;
+    }
+
+    .name {
+      width: 100%;
+    } 
+
+    .bttn-onw {
+      width: 100%;
     }
 
     .fifth-container {
