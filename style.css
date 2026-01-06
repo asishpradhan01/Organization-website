@@ -833,6 +833,11 @@
     font-size: 1.2rem;
   }
 
+  .gor-para {
+    word-break: break-all;
+    text-align: start;
+  }
+
   .nav-item {
     font-size: 1rem;
   }
@@ -843,7 +848,7 @@
 
   .dream {
     padding: 1.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
   }
 
   .bttn {
