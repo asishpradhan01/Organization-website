@@ -20,6 +20,10 @@
   border-radius: 30px;
 }
 
+.gor-para-am {
+    margin-top: 1rem;
+}
+
 .childern-aims {
   display: flex;
   flex-direction: column;
