@@ -842,6 +842,18 @@
     font-size: 1rem;
   }
 
+.gallery-images {
+  width: 100%;
+}
+
+.responsive-parent {
+  width: 100%;
+  padding: 1rem;
+}
+
+.parent-gallery {
+  width: 100%;
+}
   .Caurasel {
     height: 150px;
   }
