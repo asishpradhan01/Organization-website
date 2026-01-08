@@ -8,35 +8,57 @@
     7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo
     1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
      crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <nav>
-      <div class="Container">
-        <div class="aliging-logo">
-        <h1>Amar Youth Club</h1>
-        <img src="./src/WhatsAppImagelogo.jpeg" class="logo-img" alt="">
-        </div>
-        <div class="handle-container">
-          <ul class="list-items">
-            <li><a href="" class="nav-item">Home</a></li>
-            <div class="dropdownparent">
-            <li class="about"><a href="about.html" onclick="myFunction()" class="nav-item hov">About Us ▾</a></li>
-            <ul class="dropdown-list" id="dropdown-content">
-              <li><a href="mission.html" class="dropdown">Mission and Vision</a></li>
-              <li><a href="gallery.html" class="dropdown">Gallery</a></li>
-            </ul>
-            </div>
-            <li><a href="./membership.html" class="nav-item">Constitution</a></li>
-            <li><a href="contact.html" class="nav-item">Conatct Us</a></li>
+   <nav>
+  <div class="Container">
+    <div class="aliging-logo">
+      <h1>Amar Youth Club</h1>
+      <img src="./src/WhatsAppImagelogo.jpeg" class="logo-img" alt="">
+    </div>
+
+    <div class="handle-container">
+      <ul class="list-items">
+
+        <li><a href="index.html" class="nav-item">Home</a></li>
+
+        <!-- FIXED DROPDOWN -->
+        <li class="dropdownparent">
+          <div class="about-wrapper">
+
+            <!-- About page link -->
+            <a href="about.html" class="nav-item hov">
+              About Us
+            </a>
+
+            <!-- Arrow button -->
+            <button class="dropdown-btn" type="button">
+              <i class="fa-solid fa-angle-down arrow"></i>
+            </button>
+
+          </div>
+
+          <ul class="dropdown-list">
+            <li><a href="mission.html" class="dropdown">Mission and Vision</a></li>
+            <li><a href="gallery.html" class="dropdown">Gallery</a></li>
           </ul>
-        </div>
-        <div class="hamburger-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-      </div>
-    </nav>
+        </li>
+
+        <li><a href="./membership.html" class="nav-item">Constitution</a></li>
+        <li><a href="contact.html" class="nav-item">Contact Us</a></li>
+
+      </ul>
+    </div>
+
+    <div class="hamburger-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+  </div>
+</nav>
 
     <section aria-label="Newest Photos">
       <div class="Caurasel" data-caurosel>

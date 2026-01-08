@@ -24,6 +24,39 @@
     margin-top: 1rem;
 }
 
+.fa-angle-down {
+  cursor: pointer;
+}
+
+.about-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdown-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-list {
+  display: none;
+}
+
+.dropdownparent.active .dropdown-list {
+  display: block;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.dropdownparent.active .arrow {
+  transform: rotate(180deg);
+}
+
+
 .childern-aims {
   display: flex;
   flex-direction: column;

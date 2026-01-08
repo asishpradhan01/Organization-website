@@ -49,3 +49,11 @@ window.onclick = function(event) {
     } 
   }
 }
+
+document.querySelector(".dropdown-btn").addEventListener("click", function (e) {
+  e.stopPropagation();     // prevents About Us click
+  e.preventDefault();      // mobile safety
+
+  this.closest(".dropdownparent").classList.toggle("active");
+});
+
