@@ -98,6 +98,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
 }
 
 .name {
