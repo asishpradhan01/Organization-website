@@ -667,6 +667,10 @@
   padding-bottom: 0.45rem;
 }
 
+.mis-vis-paragraph {
+  text-align: start;
+}
+
 .gallery{
   padding-top: 4rem;
   padding-bottom: 4rem;
