@@ -641,10 +641,10 @@
 }
 
 .mission-divion {
-   margin-top: 3rem;
-    width: 500px;
-  height: 350px;
-    border-radius: 15px;
+  width: 500px;
+  padding: 2rem;
+  word-break: break-all;
+  border-radius: 15px;
   background-color: white;
   display: flex;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -981,8 +981,9 @@
   .handeling-mission {
      flex-direction: column;
      height: auto;
-     gap: 5px;
+     gap: 2rem;
      margin-bottom: 4rem;
+     margin-top: 4rem;
   }
 
 .mission-divion {
