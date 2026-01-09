@@ -683,19 +683,14 @@
   color: white;
 }
 
-.parent-gallery {
-  height: 250px;
-  width: 300px;
-  border-radius: 15px; 
-}
-
 .grand-parent {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .gallery-images {
@@ -706,10 +701,6 @@
   background-position: center;
   object-fit: cover;
 
-}
-
-.clildren-gallery {
-  margin-top: 1rem;
 }
 /* ============================= */
 /* 📱 RESPONSIVENESS STARTS HERE */
@@ -884,7 +875,8 @@
 
 .parent-gallery {
   width: 100%;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
   .Caurasel {
     height: 150px;
